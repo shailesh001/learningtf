@@ -4,7 +4,7 @@ import numpy as np
 # import MNIST data
 from tensorflow.examples.tutorials.mnist import input_data
 
-DATA_DIR = '/Users/shailesh/data'
+DATA_DIR = '../../data'
 
 mnist = input_data.read_data_sets(DATA_DIR, one_hot=True)
 
