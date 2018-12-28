@@ -15,7 +15,7 @@ num_classes = 10
 batch_size = 128
 hidden_layer_size = 128
 
-LOG_DIR = '/Users/shailesh/data/logs'
+LOG_DIR = '../../data/logs'
 
 # Create placeholders for inputs, labels
 _inputs = tf.placeholder(tf.float32, shape=[None, time_steps, element_size], name='inputs')
