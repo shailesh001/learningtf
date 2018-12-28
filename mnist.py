@@ -3,7 +3,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 # MNIST Training with Tensorflow
 
-DATA_DIR = '/mnt/c/Users/shailesh/data'
+DATA_DIR = '../../data'
 NUM_STEPS = 1000
 MINIBATCH_SIZE = 100
 
