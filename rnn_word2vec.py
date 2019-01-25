@@ -2,12 +2,12 @@ import os
 import math
 import numpy as np
 import tensorflow as tf
-from tensorflow .contrib.tensorboard.plugins import projector
+from tensorflow.contrib.tensorboard.plugins import projector
 
 batch_size = 64
 embedding_dimension = 5
 negative_samples = 8
-LOG_DIR = '/Users/shailesh/data/logs/word2vec'
+LOG_DIR = '../../data/logs/word2vec'
 
 digit_to_word_map = {1:"One", 2:"Two", 3:"Three", 4:"Four", 5:"Five", 6:"Six", 7:"Seven", 8:"Eight", 9:"Nine"}
 sentences = []

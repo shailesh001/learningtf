@@ -4,7 +4,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 from cnn_layers import conv2d, max_pool_2x2, conv_layer, full_layer
 
 
-DATA_DIR = '/Users/shailesh/data'
+DATA_DIR = '../../data'
 STEPS = 5000
 
 x = tf.placeholder(tf.float32, shape=[None, 784])

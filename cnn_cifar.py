@@ -5,7 +5,7 @@ import pickle
 import matplotlib.pyplot as plt
 from cnn_layers import conv2d, max_pool_2x2, conv_layer, full_layer
 
-DATA_PATH = '/Users/shailesh/data/cifar10'
+DATA_PATH = '../../data/cifar10'
 BATCH_SIZE = 50
 STEPS = 500000
 
